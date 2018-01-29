@@ -61,6 +61,16 @@ But you do have some degree of freedom, like, how big is it?
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 </pre>
-<pre>
-html`<div class="fb-like" data-href="${location.href}" data-width="${this.width || 50px}" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>`
-</pre>
+
+'''
+    html`<div 
+      class="fb-like" 
+      data-href="${location.href}" 
+      data-width="${this.width || 50px}" 
+      data-layout="button" 
+      data-action="like" 
+      data-size="large" 
+      data-show-faces="true" 
+      data-share="true"
+      ></div>`
+''''
