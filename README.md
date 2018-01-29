@@ -24,9 +24,9 @@ And, added bonus, this sandboxes the Like button pretty nicely by encapsulating 
 
 ## Attributes & Parameters
 #### _They are practically the same thing anyhow_
-AppID [string]
-FBConnectVersion [string]
 
+AppID [string]  
+FBConnectVersion [string]  
 href [string] 
   This should be set by the page, really. Trying to simplify here.
 width [string]  
@@ -46,7 +46,9 @@ This was made to be able to recognize that it's pulling the page it's living on 
 Do we need a have another mode for the main sites' FB URL?
 
 ## Styling ... yeahhhhhh it's an iFrame, dude.
-But you do have some degree of freedom, like, how big is it?
+But you do have some degree of freedom, like, how big is it? What type of preconcieved FB Like Button you get. Eh. It's something. Hopefully this is just sliiiiightly easier to implement for people. (and you can hold onto the code)
+
+.
 
 <pre>
 <div id="fb-root"></div>
@@ -62,7 +64,8 @@ But you do have some degree of freedom, like, how big is it?
 }(document, 'script', 'facebook-jssdk'));</script>
 </pre>
 
-'''
+```
+
     html`<div 
       class="fb-like" 
       data-href="${location.href}" 
@@ -73,4 +76,5 @@ But you do have some degree of freedom, like, how big is it?
       data-show-faces="true" 
       data-share="true"
       ></div>`
-''''
+
+```
