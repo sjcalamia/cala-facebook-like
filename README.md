@@ -29,17 +29,17 @@ FBConnectVersion [string]
 
 href [string] 
   This should be set by the page, really. Trying to simplify here.
-width [string]
-layout [string]
-action [string]
-size [string]
-show-faces [string]
-share [string]
-Size [string]
-    Possible values:
-      "small"
-      "medium"
-      "large"
+width [string]  
+layout [string]  
+action [string]  
+size [string]  
+show-faces [string]  
+share [string]  
+Size [string]  
+    Possible values:  
+      "small"  
+      "medium"  
+      "large"  
 
 This was made to be able to recognize that it's pulling the page it's living on currently. 
 
